@@ -1,0 +1,28 @@
+.page__container {
+    max-width: 1184px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 1148px) {
+    .page__container {
+        width: 928px;
+        margin: 0 auto;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .page__container {
+        margin: 0 auto;
+        margin-top: 34px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .page__container {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

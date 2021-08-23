@@ -1,8 +1,114 @@
-@import url('../styles/normalize.css');
-@import url('../blocks/page/page.css');
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/logo/__header/logo__header.css');
-@import url('../blocks/header/__nav-list/header__nav-list.css');
-@import url('../blocks/header/__lang-links/header__lang-links.css');
-@import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link_active/header__lang-link_active.css');
+                                                                             .page {
+                                                                             background-color: #2a2c2f;
+                                                                             font-family: 'Inter';
+                                                                             margin: 0;
+                                                                         }
+                                                                         
+                                                                         .page__container {
+                                                                             max-width: 1184px;
+                                                                             margin: 0 auto;
+                                                                             color: white;
+                                                                             margin-top: 34px;
+                                                                         }
+                                                                         
+                                                                         .logo__header {
+                                                                             width: 190px;
+                                                                             height: 44px;
+                                                                         }
+                                                                         
+                                                                         .header {
+                                                                             display: flex;
+                                                                             justify-content: space-between;
+                                                                             width: calc(100% - 148px * 2);
+                                                                             margin: 0 auto;
+                                                                         }
+                                                                         
+                                                                         .header__links-list {
+                                                                             margin: 0;
+                                                                             padding-left: 0;
+                                                                             display: flex;
+                                                                             list-style-type: none;
+                                                                             font-size: 24px;
+                                                                             line-height: 28px;
+                                                                             color: white;
+                                                                         }
+                                                                         
+                                                                         .header_link-item {
+                                                                             margin-left: 18px;
+                                                                         }
+                                                                         
+                                                                         .header__lang-link {
+                                                                             color: white;
+                                                                             text-decoration: none;
+                                                                         }
+                                                                         
+                                                                         .header__lang-link_active {
+                                                                             text-decoration: underline;
+                                                                         }
+                                                                         
+                                                                         .lead {
+                                                                             margin-top: 58px;
+                                                                             padding: 0;
+                                                                             max-width: 984px;
+                                                                             max-height: 1005px;
+                                                                         }
+                                                                         
+                                                                         .lead__title {
+                                                                             font-size: 96px;
+                                                                             line-height: 100px;
+                                                                             text-align: center;
+                                                                             margin: 0 auto;
+                                                                             width: 720px;
+                                                                             height: 200px;
+                                                                         }
+                                                                         
+                                                                         .lead__subtitle {
+                                                                             margin: 0 auto;
+                                                                             text-align: center;
+                                                                             margin-top: 32px;
+                                                                             padding: 0;
+                                                                             font-size: 30px;
+                                                                             line-height: 36px;
+                                                                             width: 620px;
+                                                                             height: 72px;
+                                                                         }
+                                                                         
+                                                                         @media screen and (max-width: 1148px) {
+                                                                             .header {
+                                                                                 width: calc(100% - 48px * 2);
+                                                                             }
+                                                                             @media screen and (max-width: 860px) {
+                                                                                 .header {
+                                                                                     width: calc(100% - 24px * 2);
+                                                                                 }
+                                                                             }
+                                                                             @media screen and (max-width: 540px) {
+                                                                                 .header {
+                                                                                     width: calc(100% - 16px * 2);
+                                                                                 }
+                                                                                 .page__container {
+                                                                                     margin-top: 20px;
+                                                                                 }
+                                                                                 .logo__header {
+                                                                                     width: 156px;
+                                                                                     height: 36px;
+                                                                                 }
+                                                                                 .header__links-list {
+                                                                                     font-size: 18px;
+                                                                                     line-height: 20px;
+                                                                                     margin-top: 10px;
+                                                                                 }
+                                                                                 .lead__title {
+                                                                                     font-size: 40px;
+                                                                                     line-height: 44px;
+                                                                                     width: 288px;
+                                                                                     height: 88px;
+                                                                                 }
+                                                                                 .lead__subtitle {
+                                                                                     margin-top: 16px;
+                                                                                     font-size: 16px;
+                                                                                     line-height: 20px;
+                                                                                     width: 288px;
+                                                                                     height: 40px;
+                                                                                 }
+                                                                             }
