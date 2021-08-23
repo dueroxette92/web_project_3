@@ -1,114 +1,297 @@
-                                                                             .page {
-                                                                             background-color: #2a2c2f;
-                                                                             font-family: 'Inter';
-                                                                             margin: 0;
-                                                                         }
-                                                                         
-                                                                         .page__container {
-                                                                             max-width: 1184px;
-                                                                             margin: 0 auto;
-                                                                             color: white;
-                                                                             margin-top: 34px;
-                                                                         }
-                                                                         
-                                                                         .logo__header {
-                                                                             width: 190px;
-                                                                             height: 44px;
-                                                                         }
-                                                                         
-                                                                         .header {
-                                                                             display: flex;
-                                                                             justify-content: space-between;
-                                                                             width: calc(100% - 148px * 2);
-                                                                             margin: 0 auto;
-                                                                         }
-                                                                         
-                                                                         .header__links-list {
-                                                                             margin: 0;
-                                                                             padding-left: 0;
-                                                                             display: flex;
-                                                                             list-style-type: none;
-                                                                             font-size: 24px;
-                                                                             line-height: 28px;
-                                                                             color: white;
-                                                                         }
-                                                                         
-                                                                         .header_link-item {
-                                                                             margin-left: 18px;
-                                                                         }
-                                                                         
-                                                                         .header__lang-link {
-                                                                             color: white;
-                                                                             text-decoration: none;
-                                                                         }
-                                                                         
-                                                                         .header__lang-link_active {
-                                                                             text-decoration: underline;
-                                                                         }
-                                                                         
-                                                                         .lead {
-                                                                             margin-top: 58px;
-                                                                             padding: 0;
-                                                                             max-width: 984px;
-                                                                             max-height: 1005px;
-                                                                         }
-                                                                         
-                                                                         .lead__title {
-                                                                             font-size: 96px;
-                                                                             line-height: 100px;
-                                                                             text-align: center;
-                                                                             margin: 0 auto;
-                                                                             width: 720px;
-                                                                             height: 200px;
-                                                                         }
-                                                                         
-                                                                         .lead__subtitle {
-                                                                             margin: 0 auto;
-                                                                             text-align: center;
-                                                                             margin-top: 32px;
-                                                                             padding: 0;
-                                                                             font-size: 30px;
-                                                                             line-height: 36px;
-                                                                             width: 620px;
-                                                                             height: 72px;
-                                                                         }
-                                                                         
-                                                                         @media screen and (max-width: 1148px) {
-                                                                             .header {
-                                                                                 width: calc(100% - 48px * 2);
-                                                                             }
-                                                                             @media screen and (max-width: 860px) {
-                                                                                 .header {
-                                                                                     width: calc(100% - 24px * 2);
-                                                                                 }
-                                                                             }
-                                                                             @media screen and (max-width: 540px) {
-                                                                                 .header {
-                                                                                     width: calc(100% - 16px * 2);
-                                                                                 }
-                                                                                 .page__container {
-                                                                                     margin-top: 20px;
-                                                                                 }
-                                                                                 .logo__header {
-                                                                                     width: 156px;
-                                                                                     height: 36px;
-                                                                                 }
-                                                                                 .header__links-list {
-                                                                                     font-size: 18px;
-                                                                                     line-height: 20px;
-                                                                                     margin-top: 10px;
-                                                                                 }
-                                                                                 .lead__title {
-                                                                                     font-size: 40px;
-                                                                                     line-height: 44px;
-                                                                                     width: 288px;
-                                                                                     height: 88px;
-                                                                                 }
-                                                                                 .lead__subtitle {
-                                                                                     margin-top: 16px;
-                                                                                     font-size: 16px;
-                                                                                     line-height: 20px;
-                                                                                     width: 288px;
-                                                                                     height: 40px;
-                                                                                 }
-                                                                             }
+.page {
+    background-color: #2a2c2f;
+    font-family: 'Inter';
+    margin: 0;
+}
+
+.page__container {
+    max-width: 1184px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 34px;
+}
+
+.logo__header {
+    width: 190px;
+    height: 44px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 148px * 2);
+    margin: 0 auto;
+}
+
+.header__links-list {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.header_link-item {
+    margin-left: 18px;
+}
+
+.header__lang-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+.lead {
+    padding: 0;
+    width: calc(100% - 148px * 2);
+    margin: 0 auto;
+}
+
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 720px;
+    height: 200px;
+    margin: 58px auto;
+}
+
+.lead__subtitle {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 32px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 36px;
+    width: 620px;
+    height: 72px;
+}
+
+.lead__image {
+    width: 984px;
+    height: 615px;
+    margin: 64px 0 0 0;
+    padding-top: 64px 0 0 0;
+    text-align: center;
+}
+
+.lead__caption {
+    margin-top: 8px 0 auto;
+    padding: 0;
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 182px;
+}
+
+.intro {
+    width: calc(100% - 148px * 2);
+    margin: 0 auto;
+}
+
+.intro__section {
+    margin: 92px 0 0 0;
+}
+
+.intro__title {
+    margin: 0;
+    max-width: 690px;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+.intro__subtext {
+    margin: 40px 0 0 0;
+    max-width: 690px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.intro__main-text {
+    margin: 32px 0 33px 0;
+    font-size: 16px;
+    line-height: 26.08px;
+    padding: 0;
+}
+
+.intro__list {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.photo-grid {
+    max-width: 1184px;
+    margin-top: 92px;
+}
+
+.photo-grid_images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    margin: 0;
+    justify-content: center;
+    grid-gap: 16px;
+}
+
+.photo-grid_image {
+    height: 213px;
+}
+
+@media screen and (max-width: 1148px) {
+    .header {
+        width: calc(100% - 48px * 2);
+    }
+    .lead {
+        width: calc(100% - 48px * 2);
+    }
+    .lead__image {
+        width: 928px;
+        height: 580px;
+        padding: 0;
+        margin: 56px 0 auto;
+    }
+    .intro {
+        width: calc(100% - 48px * 2);
+    }
+    .photo-grid {
+        max-width: 928px;
+        margin: 92px 0 0 48px;
+    }
+    .photo-grid_images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax( 300px, 1fr));
+        margin: 0;
+        justify-content: center;
+        grid-gap: 14px;
+    }
+    .photo-grid_image {
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .page__container {
+        max-width: 768px;
+    }
+    .header {
+        width: calc(100% - 24px * 2);
+    }
+    .lead {
+        width: calc(100% - 24px * 2);
+    }
+    .lead__image {
+        width: 768px;
+        height: 480px;
+        padding: 0;
+        margin: 56px 0 auto;
+    }
+    .intro {
+        width: calc(100% - 24px * 2);
+    }
+    .intro__section {
+        margin: 88px 0 0 0;
+    }
+    .intro__title {
+        max-width: 720px;
+    }
+    .intro__subtext {
+        max-width: 720px;
+    }
+    .photo-grid {
+        max-width: 720px;
+        margin-top: 88px 0 0 24px;
+        ;
+    }
+    .photo-grid_images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax( 352px, 1fr));
+        margin: 0;
+        justify-content: center;
+        grid-gap: 16px;
+    }
+    .photo-grid_image {
+        height: 264px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header {
+        width: calc(100% - 16px * 2);
+    }
+    .page__container {
+        margin-top: 20px;
+    }
+    .logo__header {
+        width: 156px;
+        height: 36px;
+    }
+    .header__links-list {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .lead {
+        width: calc(100% - 16px * 2);
+    }
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+        height: 88px;
+    }
+    .lead__subtitle {
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 288px;
+        height: 40px;
+    }
+    .lead__image {
+        width: 320px;
+        height: 200px;
+        margin: 40px 0 0 0;
+    }
+    .intro {
+        width: calc(100% - 16px * 2)
+    }
+    .intro__section {
+        margin: 64px 0 0 0;
+    }
+    .intro__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .intro__subtext {
+        max-width: 288px;
+        margin: 40px 0 0 0;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .intro__main-text {
+        margin-bottom: 34px;
+    }
+    .intro__list {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .photo-grid {
+        max-width: 288px;
+        margin-top: 88px 0 0 16px;
+    }
+    .photo-grid_images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax( 288px, 1fr));
+        margin: 0;
+        justify-content: center;
+        grid-gap: 12px;
+    }
+    .photo-grid_image {
+        height: 216px;
+    }
+}
