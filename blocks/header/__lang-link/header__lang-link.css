@@ -1,3 +1,5 @@
 .header__lang-link {
-    margin-left: 18px;
+    color: white;
+    text-decoration: none;
+    padding-left: 18px;
 }

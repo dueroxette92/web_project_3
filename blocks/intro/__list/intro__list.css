@@ -1,0 +1,14 @@
+.intro__list {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 540px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0;
+    }
+}
