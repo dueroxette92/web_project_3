@@ -1,7 +1,7 @@
     .place {
         max-width: 984px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(484px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(460px, 484px));
         grid-template-rows: repeat(2, auto);
         grid-template-areas: "place__title place__website" "place__image place__paragraphs";
         row-gap: 48px;
@@ -12,7 +12,7 @@
     
     @media screen and (max-width: 1148px) {
         .place {
-            grid-template-columns: auto;
+            grid-template-columns: repeat(auto-fit, minmax(440px, 456px));
         }
     }
     

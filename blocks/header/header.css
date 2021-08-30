@@ -3,12 +3,13 @@
     justify-content: space-between;
     width: 1148px;
     margin: 0 148px;
+    width: calc(100% - 148px * 2);
     max-width: 984px;
 }
 
 @media screen and (max-width: 1148px) {
     .header {
-        width: 100%;
+        width: calc(100% - 48px * 2);
         max-width: 928px;
         margin: 34px 48px;
     }

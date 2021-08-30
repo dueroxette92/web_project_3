@@ -4,19 +4,12 @@
     font-size: 24px;
     line-height: 34px;
     font-weight: 400;
-    width: 70%;
-}
-
-@media screen and (max-width: 1148px) {
-    .intro__subtext {
-        max-width: 65%;
-    }
+    width: 100%;
 }
 
 @media screen and (max-width: 860px) {
     .intro__subtext {
         max-width: 720px;
-        width: 60%;
     }
 }
 
