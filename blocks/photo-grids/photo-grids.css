@@ -1,7 +1,7 @@
 .photo-grids {
     list-style-type: none;
     max-width: 1184px;
-    padding-top: 92px;
+    padding: 92px 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     margin: 0;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 860px) {
     .photo-grids {
-        margin: 88px 0 0 24px;
+        padding: 0 0 0 24px;
         grid-template-columns: auto;
         grid-gap: 16px;
         grid-template-areas: "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image"
