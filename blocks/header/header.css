@@ -9,8 +9,8 @@
 @media screen and (max-width: 1148px) {
     .header {
         width: calc(100% - 48px * 2);
+        padding: 0;
         max-width: 928px;
-        margin: 0 auto;
     }
 }
 
@@ -18,14 +18,12 @@
     .header {
         width: calc(100% - 24px * 2);
         max-width: 720px;
-        margin: 0 auto;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 540px) {
     .header {
         width: calc(100% - 16px * 2);
-        margin: 0 auto;
-        max-width: 320px;
     }
 }

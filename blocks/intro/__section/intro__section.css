@@ -1,10 +1,17 @@
-.intro__section {
-    margin: 92px 0 0 0;
-}
-
-@media screen and (max-width: 540px) {
     .intro__section {
-        width: 100%;
-        margin: 64px 0 0 0;
+        max-width: 690px;
+        padding: 92px 0 0 0;
     }
-}
+    
+    @media screen and (max-width: 1148px) {
+        .intro__section {
+            margin: 0;
+        }
+    }
+    
+    @media screen and (max-width: 540px) {
+        .intro__section {
+            width: 100%;
+            padding: 64px 0 0 0;
+        }
+    }

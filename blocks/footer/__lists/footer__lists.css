@@ -2,6 +2,7 @@
     padding: 0;
     display: inline-flex;
     list-style-type: none;
+    margin: 0;
 }
 
 @media screen and (max-width: 860px) {
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 540px) {
     .footer__lists {
-        display: list-item;
+        display: table-caption;
         margin: 0;
     }
 }

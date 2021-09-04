@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/index.css">
     <title>From Portland to Portland</title>
 </head>
@@ -18,10 +20,12 @@
         </header>
         <main class="content">
             <section class="lead">
-                <h1 class="lead__title">From Portland to Portland</h1>
-                <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-                <img class="lead__image" src="./images/lead__image.png" alt="Black and white Mountain and trees Pic">
-                <p class="lead__caption">Your journey starts here</p>
+                <figure class="lead__section">
+                    <h1 class="lead__title">From Portland to Portland</h1>
+                    <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+                    <img class="lead__image" src="./images/lead__image.png" alt="Black and white Mountain and trees Pic">
+                    <p class="lead__caption">Your journey starts here</p>
+                </figure>
             </section>
             <section class="intro">
                 <div class="intro__section">
@@ -32,33 +36,37 @@
                         donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
                 </div>
                 <div class="intro__list ">
-                    <p class="intro__list-text "><span class="intro__list-span">Distance (miles)</span> 3,644</p>
-                    <p class="intro__list-text "> <span class="intro__list-span">Travel time (days)</span> 22</p>
-                    <p class="intro__list-text "><span class="intro__list-span">Highest point (feet)</span> 9,613</p>
-                    <p class="intro__list-text "><span class="intro__list-span">Lowest point (feet) </span>-3</p>
+                    <lu class="intro__lists">
+                        <li class="intro__list-text "><span class="intro__list-span">Distance (miles)</span> 3,644</li>
+                        <li class="intro__list-text "> <span class="intro__list-span">Travel time (days)</span> 22</li>
+                        <li class="intro__list-text "><span class="intro__list-span">Highest point (feet)</span> 9,613</li>
+                        <li class="intro__list-text "><span class="intro__list-span">Lowest point (feet) </span>-3</li>
+                    </lu>
                 </div>
             </section>
             <section class="photo-grid ">
-                <img class="photo-grid__image " src="./images/roadpic-photo-grid__item.png" alt="highway road Pic ">
-                <img class="photo-grid__image " src="./images/riverpic-photo-grid__item.png " alt="The long river ">
-                <img class="photo-grid__image " src="./images/seagull-photo-grid__item.png " alt="The seagulls soaring ">
-                <img class="photo-grid__image" src="./images/forest-photo-grid.png " alt=" A forest top view ">
-                <img class="photo-grid__image" src="./images/foggy-day-photo-grid__item.png " alt="The foggy day in the forest ">
-                <img class="photo-grid__image " src="./images/mountains-photo-grid__item.png " alt="The Mountain Top view ">
-                <img class="photo-grid__image" src="./images/mountain-rocks-photo-grid__item.png " alt="The Mountain Rocks View from top ">
-                <img class="photo-grid__image" src="./images/flower-photo-grid__item.png " alt="type of a flower ">
-                <img class="photo-grid__image " src="./images/landscape-photo-grid__item.png " alt="Landscape View ">
-                <img class="photo-grid__image " src="./images/lake-photo-grid__item.png" alt="Small lake ">
-                <img class="photo-grid__image" src="./images/birds-photo-grid__item.png " alt="A small lake ">
-                <img class="photo-grid__image" src="./images/roadview-photo-grid__item.png " alt="A small lake ">
+                <lu class="photo-grids ">
+                    <li><img class="photo-grids__image " src="./images/roadpic-photo-grid__item.png" alt="highway road Pic "></li>
+                    <li> <img class="photo-grids__image " src="./images/riverpic-photo-grid__item.png " alt="The long river "></li>
+                    <li> <img class="photo-grids__image " src="./images/seagull-photo-grid__item.png " alt="The seagulls soaring "></li>
+                    <li> <img class="photo-grids__image" src="./images/forest-photo-grid.png " alt=" A forest top view "></li>
+                    <li> <img class="photo-grids__image" src="./images/foggy-day-photo-grid__item.png " alt="The foggy day in the forest "></li>
+                    <li> <img class="photo-grids__image " src="./images/mountains-photo-grid__item.png " alt="The Mountain Top view "></li>
+                    <li> <img class="photo-grids__image" src="./images/mountain-rocks-photo-grid__item.png " alt="The Mountain Rocks View from top "></li>
+                    <li> <img class="photo-grids__image" src="./images/flower-photo-grid__item.png " alt="type of a flower "></li>
+                    <li> <img class="photo-grids__image " src="./images/landscape-photo-grid__item.png " alt="Landscape View "></li>
+                    <li><img class="photo-grids__image " src="./images/lake-photo-grid__item.png" alt="Small lake "></li>
+                    <li><img class="photo-grids__image" src="./images/birds-photo-grid__item.png " alt="A small lake "></li>
+                    <li><img class="photo-grids__image" src="./images/roadview-photo-grid__item.png " alt="A small lake "></li>
+                </lu>
             </section>
             <section class="places ">
-                <div class="place ">
+                <article class="place ">
                     <h2 class="place__title ">Maine</h2>
-                    <article class="place__website">
+                    <div class="place__website">
                         <h3 class="place__url-heading ">URL</h3>
                         <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank" class="place__link ">global.llbean.com</a>
-                    </article>
+                    </div>
                     <img src="./images/maine__image.png " class="place__image " alt="Maine State, Ocean View ">
                     <div class="place__paragraphs ">
                         <p class="place__paragraph ">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey
@@ -67,14 +75,14 @@
                         </p>
                         <p class="place__paragraph ">Average cost: $80-100.</p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place ">
+                <article class="place ">
                     <h2 class="place__title ">New Hampshire</h2>
-                    <article class="place__website">
+                    <div class="place__website">
                         <h3 class="place__url-heading ">URL</h3>
                         <a href="https://www.timberland.com/timberlandpro.html" target="_blank" class="place__link ">timberland.com</a>
-                    </article>
+                    </div>
                     <img src="./images/New-Hampshire__image.png " class="place__image " alt="New Hampshire, Mountains View ">
                     <div class="place__paragraphs ">
                         <p class="place__paragraph ">There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So enjoy it while it lasts.</p>
@@ -84,14 +92,14 @@
                         </p>
                         <p class="place__paragraph ">Average cost: $100-150.</p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place ">
+                <article class="place ">
                     <h2 class="place__title ">New York</h2>
-                    <article class="place__website">
+                    <div class="place__website">
                         <h3 class="place__url-heading ">URL</h3>
                         <a href="https://www.ge.com/about-us" target="_blank" class="place__link ">ge.com</a>
-                    </article>
+                    </div>
                     <img src="./images/New-York__image.png " class="place__image " alt="New York, Buildings ">
                     <div class="place__paragraphs ">
                         <p class="place__paragraph ">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world-famous General
@@ -100,13 +108,13 @@
                             dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.
                         </p>
                     </div>
-                </div>
-                <div class="place ">
+                </article>
+                <article class="place ">
                     <h2 class="place__title ">Erie, PA</h2>
-                    <article class="place__website">
+                    <div class="place__website">
                         <h3 class="place__url-heading ">URL</h3>
                         <a href="https://www.fws.gov/refuge/erie" target="_blank" class="place__link ">fws.gov</a>
-                    </article>
+                    </div>
                     <img src="./images/Erie-Pa__image.png" class="place__image " alt="Erie, PA, Falls (nature view)">
                     <div class="place__paragraphs ">
                         <p class="place__paragraph ">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the
@@ -116,13 +124,13 @@
                         </p>
                         <p class="place__paragraph ">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
                     </div>
-                </div>
-                <div class="place ">
+                </article>
+                <article class="place ">
                     <h2 class="place__title ">Ohio</h2>
-                    <article class="place__website">
+                    <div class="place__website">
                         <h3 class="place__url-heading ">URL</h3>
                         <a href="https://www.fws.gov/refuge/erie" target="_blank" class="place__link ">fcedarpoint.com</a>
-                    </article>
+                    </div>
                     <img src="./images/Erie-Pa__image.png" class="place__image " alt="Erie, PA, Falls (nature view)">
                     <div class="place__paragraphs ">
                         <p class="place__paragraph ">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America, over 200 of which have registered with a magnitude
@@ -131,7 +139,7 @@
                         </p>
                         <p class="place__paragraph ">The cost of a daily ticket: about $100.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <section class="cover">
                 <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html">
@@ -145,15 +153,17 @@
 
         <footer class="footer ">
             <div class="footer__section">
-                <ul class="footer__lists ">
-                    <li class="footer__list"><a href="https://yandex.com/maps" class="footer__link ">Maps</a></li>
-                    <li class="footer__list "><a href="https://yandex.com/weather/moscow" class="footer__link ">Weather</a></li>
-                    <li class="footer__list "><a href="https://calendar.yandex.ru " class="footer__link ">Calendar</a></li>
-                </ul>
+                <nav class="footer__lists-nav">
+                    <ol class="footer__lists">
+                        <li class="footer__list"><a href="https://yandex.com/maps" class="footer__link ">Maps</a></li>
+                        <li class="footer__list "><a href="https://yandex.com/weather/moscow" class="footer__link ">Weather</a></li>
+                        <li class="footer__list "><a href="https://calendar.yandex.ru " class="footer__link ">Calendar</a></li>
+                    </ol>
+                </nav>
                 <p class="footer__copyright ">&copy; 2021 Roxette Duero</p>
-            </div>
+
         </footer>
-    </div>
+        </div>
 </body>
 
 </html>
