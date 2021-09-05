@@ -14,13 +14,12 @@
         margin: 0 auto;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 14px;
-        padding: 0;
     }
 }
 
 @media screen and (max-width: 860px) {
     .photo-grids {
-        padding: 0 0 0 24px;
+        padding: 88px 24px 0 24px;
         grid-template-columns: auto;
         grid-gap: 16px;
         grid-template-areas: "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image"
