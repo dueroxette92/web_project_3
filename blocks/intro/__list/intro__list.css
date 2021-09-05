@@ -4,12 +4,5 @@
     line-height: 18px;
     font-weight: 400;
     max-width: 690px;
-}
-
-@media screen and (max-width: 540px) {
-    .intro__list {
-        /* font-size: 12px;
-        line-height: 18px; */
-        padding: 0;
-    }
+    padding: 0;
 }
