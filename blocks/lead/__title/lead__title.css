@@ -7,22 +7,9 @@
     max-width: 720px;
 }
 
-
-/* @media screen and (max-width: 1148px) {
-    .lead__title {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .lead__title {
-        max-width: 720px;
-        font-size: 6rem;
-    }
-} */
-
 @media screen and (max-width: 540px) {
     .lead__title {
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
     }
