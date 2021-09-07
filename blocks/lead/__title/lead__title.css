@@ -5,10 +5,10 @@
     text-align: center;
     margin: 0 auto;
     max-width: 720px;
-    width: 100%;
 }
 
-@media screen and (max-width: 1148px) {
+
+/* @media screen and (max-width: 1148px) {
     .lead__title {
         max-width: 720px;
     }
@@ -19,12 +19,11 @@
         max-width: 720px;
         font-size: 6rem;
     }
-}
+} */
 
 @media screen and (max-width: 540px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        margin: 0 16px;
     }
 }

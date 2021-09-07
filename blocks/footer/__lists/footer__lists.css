@@ -2,13 +2,7 @@
     padding: 0;
     display: inline-flex;
     list-style-type: none;
-    margin: 0;
-}
-
-@media screen and (max-width: 860px) {
-    .footer__lists {
-        margin: 0 24px;
-    }
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 540px) {

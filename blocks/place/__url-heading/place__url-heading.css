@@ -6,13 +6,12 @@
     font-weight: 100;
     margin: 0;
     opacity: 0.6;
-    padding: 40px 0 12px 0;
+    padding: 0 0 12px 0;
 }
 
 @media screen and (max-width: 860px) {
     .place__url-heading {
         max-width: 352px;
         line-height: 12px;
-        padding: 0;
     }
 }

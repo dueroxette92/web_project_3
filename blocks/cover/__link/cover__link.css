@@ -13,13 +13,13 @@
 
 .cover__link:after {
     content: "";
+    display: block;
     background: #2A2C2F;
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
     opacity: 0.3;
     cursor: pointer;
 }

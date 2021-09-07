@@ -1,8 +1,15 @@
-.intro__list {
-    list-style-type: none;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-    max-width: 690px;
-    padding: 0;
-}
+    .intro__list {
+        list-style-type: none;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        max-width: 690px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 1148px) {
+        .intro__list {
+            margin: 0;
+        }
+    }

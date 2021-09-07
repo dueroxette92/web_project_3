@@ -1,13 +1,12 @@
     .lead {
         padding: 58px 0 0 0;
-        width: calc(100% - 148px * 2);
+        width: 100%;
         max-width: 984px;
         margin: 0 auto;
     }
     
     @media screen and (max-width: 1148px) {
         .lead {
-            width: calc(100% - 48px * 2);
             padding: 50px 0 0 0;
             max-width: 928px;
         }
@@ -15,16 +14,16 @@
     
     @media screen and (max-width: 860px) {
         .lead {
-            width: calc(100% - 24px * 2);
+            max-width: 720px;
             padding: 58px 0 0 0;
+            margin: 0 auto;
         }
     }
     
     @media screen and (max-width: 540px) {
         .lead {
-            width: calc(100% - 16px * 2);
             padding: 50px 0 0 0;
             max-width: 320px;
-            margin: 0;
+            margin: 0 auto;
         }
     }

@@ -1,5 +1,4 @@
     .place {
-        max-width: 984px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(460px, 484px));
         grid-template-rows: repeat(2, auto);
@@ -18,17 +17,17 @@
     
     @media screen and (max-width: 860px) {
         .place {
-            grid-template-columns: auto;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 352px));
             column-gap: 28px;
             margin: 0;
-            width: 100%;
+            width: calc(100% - 24px * 2);
             padding: 80px 0 0 0;
+            max-width: 720px;
         }
     }
     
     @media screen and (max-width: 540px) {
         .place {
-            max-width: 320px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(1, auto);
