@@ -28,11 +28,10 @@
 
 @media screen and (max-width: 540px) {
     .photo-grids {
-        width: calc(100% - 16px * 2);
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
         grid-template-areas: "place__title" "place__website" "place__image" "place__paragraphs";
-        padding: 48px 0 0 0;
+        padding: 64px 0 0 0;
         grid-gap: 12px;
     }
 }
