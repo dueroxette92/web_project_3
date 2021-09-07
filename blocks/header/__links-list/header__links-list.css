@@ -10,7 +10,7 @@
       position: relative;
   }
   
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 583px) {
       .header__links-list {
           font-size: 18px;
           line-height: 20px;

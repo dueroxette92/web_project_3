@@ -7,7 +7,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 583px) {
     .footer__list {
         padding: 0;
         font-size: 24px;

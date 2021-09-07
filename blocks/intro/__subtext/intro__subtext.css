@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 583px) {
     .intro__subtext {
         max-width: 288px;
     }

@@ -2,7 +2,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 583px) {
     .cover__text {
         min-width: 288px;
     }

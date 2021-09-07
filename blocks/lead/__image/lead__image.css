@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 583px) {
     .lead__image {
         padding-top: 40px;
         max-height: 200px;
