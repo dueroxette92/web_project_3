@@ -8,7 +8,11 @@ https://dueroxette92.github.io/web_project_3/index.html
 * Images
 
 **Intro**
-During the making of the project, I was able to used the properties, tags and etc - I've learned from the previous projects such as importing files using @import, @media if you want to have a responsive page.
+During the making of the project, I was able to used/explore different properties, tags and etc - that I've learned from the previous projects such as importing files using @import. The @import rule is used to import one style sheet into another style sheet. This rule also support media queries so that the user can import the media-dependent style sheet. The @import rule must be declared at the top of the document after any @charset declaration.
+
+
+ In this project, I also use @media rule- The @media rule is used in media queries to apply different styles for different media types/devices. if you want to have a responsive page, this rule is very useful to use. 
+
 Assigning width using "calc" to assigned value. It was fun and confusing at the same time. It was also quite difficult than the previous one. I am happy that I am able to work and learn alot in this project. 
 
 This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
