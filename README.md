@@ -1,5 +1,7 @@
 # Project 3: From Portland to Portland
 From Portland to Portland is a responsive webpage where the size of the page adjust base on the size of your screen-device.
+To see the page, check the link below:
+https://dueroxette92.github.io/web_project_3/index.html
 ### Overview
 * Intro
 * Figma
