@@ -20,9 +20,10 @@
 @media screen and (max-width: 860px) {
     .photo-grids {
         padding: 88px 0 0 0;
-        grid-template-columns: auto;
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 16px;
         grid-template-areas: "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image" "photo-grids__image photo-grids__image";
+        grid-template-rows: repeat(1, 264px);
     }
 }
 
