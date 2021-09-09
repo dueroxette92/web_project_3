@@ -9,5 +9,6 @@
     .place__paragraphs {
         max-width: 288px;
         margin: 0 auto;
+        margin: 0 16px;
     }
 }
